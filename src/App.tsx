@@ -1,10 +1,17 @@
 import React from 'react';
 import './App.css';
+import HelloWorld from "./components/HelloWorld";
+import LastName from "./components/LastName";
+
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+        <HelloWorld></HelloWorld>
+        <LastName></LastName>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
